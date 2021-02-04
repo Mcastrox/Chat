@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:fontFamily="sans-serif-black"
+            android:textSize="36dp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/edtUserInit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa tu correo electronico "
+            android:layout_margin="15dp"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/edtPassInit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa tu contraseña "
+            android:textAlignment="center"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/btnNuevo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:layout_margin="20dp"
+            android:textAlignment="center"
+            android:text="No poseo una cuenta "
+            android:fontFamily="sans-serif-black"
+
+            />
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:layout_margin="20dp"
+            android:textAlignment="center"
+            android:text="Iniciar Sesión"
+            android:fontFamily="sans-serif-black"
+
+            />
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
